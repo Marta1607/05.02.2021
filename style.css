@@ -10,36 +10,43 @@ span {
     height: 100%;
     margin-top: 10%;
 }
-.container {
-    display: flex;
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
-.item {
+.grid-item {
+    padding: 10px;
+    font-size: 20px;
+}
+.grid-item1 {
     border-left: 2px solid black;
+    padding: 10px;
+    font-size: 20px;
 }
-.oferta {
-    display: flex;
-    flex-direction: column;
+.grid-item2 {
+    border-left: 2px solid black;
+    border-top: 2px solid wheat;
+    padding: 10px;
+    font-size: 20px;
 }
-.meble{
-    padding-left:200px ;
+.grid-item3 {
+    border-top: 2px solid wheat;
+    padding: 10px;
+    font-size: 20px;
 }
+
 .btn {
     border-radius: 10%;
-    margin-left: 50%;
+    margin-left:15%;
     background-color: orange;
     height: 40px;
-}
-.item2 {
-    grid-template-columns: 1;
-}
-.item3 {
-    grid-template-columns: 4;
 }
 .imglas {
     padding-left:70% ;
 }
-.container1 {
-    display: flex;
-    flex-direction: column;
-    flex-direction: row;
+.row {
+    display: block;
+}
+.img-jap {
+    width: 75%;
 }
